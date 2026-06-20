@@ -36,5 +36,19 @@
                 </div>
             </div>
         </div>
+        <script>
+
+            const apiKey = "e7d0da48b0aad07feae082ea835964e1";
+            const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metricq=bhubaneswar";
+
+            async function checkWeather() {
+                const response = await fetch(apiUrl +`&appid=${apiKey}`);
+                var data = await response.json();
+                console.log(data);
+            }
+
+        </script>
+
+
 </body>
 </html>
