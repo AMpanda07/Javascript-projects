@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
     background:#222;
@@ -85,4 +85,14 @@ body{
 .humidity, .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+.weather{
+    display:none;
+}
+.error{
+    text-align:left;
+    margin: 10px 0 0;
+    font-size: 15px;
+    margin-top: 10px;
+    display:none;
 }
