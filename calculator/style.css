@@ -49,5 +49,12 @@ form .display input{
 }
 form input.equal{
     width:145px;
-    
+
+}
+form input.operator{
+    color:#0bd75c;
+}
+#eq{
+    color:#021208;
+    background: #0bd75c;
 }
